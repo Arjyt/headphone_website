@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width:100%;
+    height:900px;
+    background-color:white;
+
+}
+.banner{
+    width: 100%;
+    height: 850px;
+    background-image: url(./assets/c-d-x-PDX_a_82obo-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.main.navbar{
+    position: absolute;
+    top: 30px;
+}
+.row{
+    height: 800px;
+    display:flex;
+    align-items: center;
+    
+}
+.row p{
+    text-transform:uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.row h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    padding-bottom: 30px;
+}
+.row button{
+    background-color: #fff;
+    color: black;
+    width: 220px;
+    padding: 20px;
+    border: none;
+    border-radius:40px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.row2{
+    padding-top: 60px;
+}
+.row2 h1{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size:30px;
+    padding-bottom: 20px;
+}
+.row2 span{
+    font-weight: bold;
+    padding-left: 20px;
+}
+.row2 p{
+    padding-bottom: 50px;
+}
+.row3{
+    background-color: #FFD35A;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: center;
+    
+    
+}
+
+.row3 h1{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.row4{
+    display: flex;
+}
+.row4 img{
+    height: 200px;
+}
+.row4 button{
+    background-color:#FFD35A;
+    color: black;
+    border: none;
+    width: 100px;
+    border-radius:40px;
+    font-weight: bold;
+    font-size: small;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+}
+.row5{
+    display: flex;
+    
+}
+.row5 p{
+    position:absolute;
+    top: 2000px;
+    display: none;
+    
+}
+.row5 img{
+    padding-right: 20px;
+}
+
+.row5 img :hover +.row5 p{
+display: block;
+}
+.row6{
+    display: flex;
+    
+}
+.row6 img{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.row6 .col-2 p{
+    position: absolute;
+    top: 0
+}
+
+.img1 {
+    width: 250px;
+    height: 170px;
+    background-color: yellow;
+    position: relative; 
+    overflow: hidden; 
+
+
+}
+
+.img1 img {
+    width: 100%;
+    height: 100%;
+    display: block; 
+}
+
+.img1 .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:rgb(128, 128, 128);
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1:hover .overlay {
+    opacity: .7;
+}
+.conainer{
+    padding-left: 80px;
+    padding-right: 30px;
+    padding-top: 90px;
+  
+}
+.rowy{
+    width: 100%;
+    height: 160px;
+    background-color: #FFD35A;
+    color: white;
+    padding-top: 30px;
+    position: relative;
+    /* padding-top: 80px; */
+    
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.footer-button .button{
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+}.col-2{
+    position: relative;
+
+}
+
+.col-2 h1{
+    color: #FFD35A;
+    font-size: 90px;
+    position: relative;
+}
+.col-2 h2{
+    font-size: large;
+    position: absolute;
+    top:50px;
+    left: 10px;
+}
+.col-2 span{
+    color: #FFD35A;
+}
+.footer{
+    width: 100%;
+    height:200px;
+    background-color:#fff;
+    padding: 90px;
+    display:flex;
+
+}
+.col-4 li{
+    list-style: none;
+    gap: 20px;
+    background:#FFD35A;
+    border-radius:50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+}
+.navbar1{
+    background-color: rgba(0, 0, 0, 0);
+}
+.navbar2{
+    background-color: #f4c76e;
+}
+
+.navbar3{
+    overflow-y:visible;
+    background-color: #f4c76e;
+}
+.dropdownn{
+    background-color: #f4c76e;
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+.dropdownnlist{
+    text-decoration: none;
+    color: black;
+}
+nav .b1{
+    border-radius: 20px;
+}
